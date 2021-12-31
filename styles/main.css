@@ -1,0 +1,134 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #232830;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --green: lightgreen;
+  --very-large: 2rem;
+  --large: 1.9rem;
+  --medium: 1.7rem;
+  --short: 1.6rem;
+  --very-short: 1.4rem;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  background: var(--white);
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.navbar-list {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 130px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.logo a {
+  color: var(--dark);
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+/* Navbar styles in desktop */
+.sections-list {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  font-size: var(--medium);
+}
+.sections-list li a {
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: var(--very-light-pink);
+  text-decoration: none;
+}
+
+/* Active category style*/
+.sections-list li a:hover {
+  color: var(--green);
+}
+/*  */
+
+.navbar__left,
+.navbar__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__left a,
+.navbar__right a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 12px 20px;
+  background: var(--green);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.button-navbar {
+  font-size: var(--short);
+  display: none;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-mobile {
+    display: none;
+  }
+  .logo {
+    width: 150px;
+  }
+  .sections-list {
+    display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .button-navbar {
+    display: block;
+  }
+  .navbar__left {
+    order: 1;
+  }
+  .navbar__right {
+    order: 2;
+  }
+}
