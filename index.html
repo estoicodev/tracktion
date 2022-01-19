@@ -8,73 +8,275 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <nav class="menu-mobile hidden">
-      <button>
-        <img
-          src="./images/icon_close.png"
-          alt="Close icon"
-          class="menu__close-icon"
-          id="menu-close-icon"
-        />
-      </button>
-      <ul>
-        <li class="menu__title">CATEGORIES</li>
-        <li class="menu__category">
-          <a href="#">All</a>
-        </li>
-        <li class="menu__category">
-          <a href="#">Clothes</a>
-        </li>
-        <li class="menu__category">
-          <a href="#">Electronics</a>
-        </li>
-        <li class="menu__category">
-          <a href="#">Furnitures</a>
-        </li>
-        <li class="menu__category">
-          <a href="#">Toys</a>
-        </li>
-        <li class="menu__category last-category">
-          <a href="#">Others</a>
-        </li>
-        <div class="menu__additional-container">
-          <li class="menu__additional">
-            <a href="./screens/my-orders.html">My orders</a>
+    <header class="header">
+      <nav class="nav__main">
+        <ul class="navbar-list" id="navbar-list">
+          <div class="navbar__left">
+            <li class="logo">
+              <a href="#">Tracktion</a>
+            </li>
+          </div>
+          <div class="navbar__right">
+            <ul class="sections-list" id="sections-list">
+              <li><a href="#">E-Commerce Database</a></li>
+              <li><a href="#">Articles</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+            <li>
+              <a href="#" class="button button--nav-main">BECOME A MEMBER</a>
+            </li>
+            <li class="menu-icon" id="menu-icon">
+              <div>
+                <svg
+                  width="25"
+                  height="21"
+                  viewBox="0 0 25 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 0.730769C0.447715 0.730769 0 1.17848 0 1.73077C0 2.28305 0.447715 2.73077 1 2.73077V0.730769ZM24 2.73077C24.5523 2.73077 25 2.28305 25 1.73077C25 1.17848 24.5523 0.730769 24 0.730769V2.73077ZM1 9.5C0.447715 9.5 0 9.94772 0 10.5C0 11.0523 0.447715 11.5 1 11.5V9.5ZM12.5 11.5C13.0523 11.5 13.5 11.0523 13.5 10.5C13.5 9.94772 13.0523 9.5 12.5 9.5V11.5ZM1 18.2692C0.447715 18.2692 0 18.7169 0 19.2692C0 19.8215 0.447715 20.2692 1 20.2692V18.2692ZM24 20.2692C24.5523 20.2692 25 19.8215 25 19.2692C25 18.7169 24.5523 18.2692 24 18.2692V20.2692ZM1 2.73077H24V0.730769H1V2.73077ZM1 11.5H12.5V9.5H1V11.5ZM1 20.2692H24V18.2692H1V20.2692Z"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </nav>
+      <nav class="nav__mobile" id="menu-mobile">
+        <ul>
+          <li class="menu__category">
+            <a href="#">E-Commerce Database</a>
           </li>
-          <li>
-            <a href="./screens/my-account.html">My account</a>
+          <li class="menu__category">
+            <a href="#">Articles</a>
           </li>
-          <li class="menu__sign-out">
-            <a href="./screens/login.html" class="sign-out">Sign out</a>
+          <li class="menu__category">
+            <a href="#">About</a>
           </li>
+          <li class="menu__category">
+            <a href="#">Login</a>
+          </li>
+          <li class="menu__button--mobile">
+            <a href="#" class="button button--nav-mobile">BECOME A MEMBER</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="section-1">
+        <figure class="img-container">
+          <img
+            src="./src/ilustration.svg"
+            alt="Ilustration"
+            class="img--ilustration"
+          />
+        </figure>
+        <div class="main-container">
+          <h1 class="main-heading">
+            Growth strategies & case studies. By email.
+          </h1>
+          <p class="main-description">
+            We deconstruct how successful businesses are built. Our team sends a
+            free weekly email where we reverse engineer startups and industries
+            so you can apply the insights to your own company.
+          </p>
+          <div class="form-top-container">
+            <input
+              type="email"
+              class="input-field"
+              placeholder="Get a Free Case Study"
+            />
+            <input type="submit" class="button button--form" value="SIGN UP" />
+          </div>
         </div>
-      </ul>
-    </nav>
-    <nav>
-      <ul class="navbar-list" id="navbar-list">
-        <div class="navbar__left">
-          <li class="logo">
-            <a href="#">Tracktion</a>
-          </li>
+      </div>
+      <div class="section-2">
+        <h2>Example case study</h2>
+        <div class="card">
+          <figure class="card__image-container">
+            <img
+              src="./src/card_image.png"
+              alt="Two Women"
+              class="card__image"
+            />
+          </figure>
+          <div class="card__information">
+            <span class="card__user">MEMBER EXCLUSIVE</span>
+            <p class="card__title">
+              How Away Travel built a billion dollar business.
+            </p>
+            <p class="card__description">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+            <p class="card__author">BY YAW OWUSU-BARIMAH</p>
+          </div>
         </div>
-        <div class="navbar__right">
-          <ul class="sections-list" id="sections-list">
-            <li><a href="#">E-Commerce Database</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Login</a></li>
-          </ul>
-          <li>
-            <a href="#" class="button button-navbar">Become a member</a>
-          </li>
-
-          <li class="menu-icon" id="menu-icon">
-            <div>
-              <img src="./src/icon_menu.svg" alt="Menu icon" />
+      </div>
+      <div class="section-3">
+        <h2>Industries Covered</h2>
+        <div class="industries-container">
+          <div class="container-card">
+            <div class="industry-container">
+              <div class="industry-card">
+                <img
+                  src="./src/marketplace.svg"
+                  alt="Marketplace"
+                  class="industry__image"
+                />
+                <p class="industry__name">Marketplaces</p>
+              </div>
             </div>
-          </li>
+          </div>
+          <div class="container-card">
+            <div class="industry-container">
+              <div class="industry-card">
+                <img
+                  src="./src/commerce.svg"
+                  alt="Commerce"
+                  class="industry__image"
+                />
+                <p class="industry__name">Commerce</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-card">
+            <div class="industry-container">
+              <div class="industry-card">
+                <img src="./src/saas.svg" alt="SAAS" class="industry__image" />
+                <p class="industry__name">SAAS</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </ul>
-    </nav>
+      </div>
+      <div class="section-4">
+        <h2>What you'll get from us</h2>
+        <div class="benefits-container">
+          <div class="benefits-section-1">
+            <div class="benefit-container">
+              <img
+                src="./src/newsletter.svg"
+                alt="Newsletter"
+                class="benefit__image"
+              />
+              <p class="benefit__title">Weekly Newsletter</p>
+              <p class="benefit__description">
+                We'll email you in-depth analysis, data, and trends around some
+                of the fastest growing businesses
+              </p>
+            </div>
+            <div class="benefit-container">
+              <img
+                src="./src/case_studies.svg"
+                alt="Case studies"
+                class="benefit__image"
+              />
+              <p class="benefit__title">Case Studies</p>
+              <p class="benefit__description">
+                Read our case studies where we reverse-engineer how different
+                businesses gained initial traction
+              </p>
+            </div>
+            <div class="benefit-container">
+              <img
+                src="./src/interviews.svg"
+                alt="Interviews"
+                class="benefit__image"
+              />
+              <p class="benefit__title">Interviews</p>
+              <p class="benefit__description">
+                We interview founders and experts to be inspired and learn from.
+                Take those learnings and apply the tactics to your own business.
+              </p>
+            </div>
+          </div>
+          <div class="benefits-section-2">
+            <div class="benefit-container">
+              <img
+                src="./src/insights.svg"
+                alt="Insights"
+                class="benefit__image"
+              />
+              <p class="benefit__title">Actionable Insights</p>
+              <p class="benefit__description">
+                Step by step ways to implement the strategies learned.
+                Understand the marketing tactics of today's top companies
+              </p>
+            </div>
+            <div class="benefit-container">
+              <img
+                src="./src/community.svg"
+                alt="Community"
+                class="benefit__image"
+              />
+              <p class="benefit__title">Private Community</p>
+              <p class="benefit__description">
+                Access to events, dinners and a private facebook group with the
+                top entrepreneurs in the space.
+              </p>
+            </div>
+            <div class="benefit-container">
+              <img
+                src="./src/database.svg"
+                alt="Database"
+                class="benefit__image"
+              />
+              <p class="benefit__title">Proprietary Databases</p>
+              <p class="benefit__description">
+                Exclusive research across commerce, SAAS, marketplaces and media
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-5">
+        <div class="form-card">
+          <div class="form-card__content">
+            <p class="form__title">Get a Free Case Study</p>
+            <p class="form__description">
+              Get notified weekly on exclusive strategies, articles, and
+              actionable advice on how companies grow.
+            </p>
+            <div class="form-bottom-container">
+              <input
+                type="email"
+                class="input-field input-field--form-bottom"
+                placeholder="Get a free case study"
+              />
+              <input
+                type="submit"
+                class="button button--form-bottom"
+                value="SIGN UP"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer__left">
+            <div class="logo">Tracktion</div>
+            <ul class="nav__footer">
+              <li><a href="#">E-Commerce Database</a></li>
+              <li><a href="#">Articles</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="footer__right">
+            <span class="copyright">Copyright @Tracktion 2022</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./scripts/menuMobile.js"></script>
   </body>
 </html>

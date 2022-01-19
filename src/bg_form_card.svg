@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720px" height="277px" viewBox="0 0 720 277" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="9.92737927%" y1="47.7148845%" x2="93.4280587%" y2="52.9310963%" id="linearGradient-1">
+            <stop stop-color="#30A566" offset="0%"></stop>
+            <stop stop-color="#008D87" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="700" height="257" rx="10"></rect>
+        <filter x="-2.5%" y="-4.9%" width="105.0%" height="113.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="9.92737927%" y1="44.6151383%" x2="93.4280587%" y2="56.9071117%" id="linearGradient-4">
+            <stop stop-color="#30A566" offset="0%"></stop>
+            <stop stop-color="#008D87" offset="100%"></stop>
+        </linearGradient>
+        <path d="M244,0 L556,257 L690,257 C695.522847,257 700,252.522847 700,247 L700,10 C700,4.4771525 695.522847,-1.01453063e-15 690,0 L244,0 Z" id="path-5"></path>
+        <filter x="-3.8%" y="-4.9%" width="107.7%" height="113.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TractionToday-v.3" transform="translate(-360.000000, -3130.000000)">
+            <g id="Group-23" transform="translate(370.000000, 3135.000000)">
+                <g id="Group-21">
+                    <g id="Group-5">
+                        <g id="Group-28">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                            <g id="Path-3">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
