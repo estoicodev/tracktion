@@ -1,10 +1,14 @@
 # Tracktion
-A landing page of Tracktion.
+The landing page of Tracktion.
 
 ## Links
 - [Demo](https://mauricodev.github.io/tracktion)
 
-## Screen
+## Features
+- Responsive design
+- Drop-down menu to mobile and tablet design
+
+## Demo Screen
 
 - Mobile
 
@@ -19,3 +23,11 @@ A landing page of Tracktion.
 - Desktop
 
 ![tracktion_1024px](https://user-images.githubusercontent.com/70554280/150073167-37a30d33-ed6e-43be-ad4c-3270d1d0ad8f.png)
+
+## Built with
+- HTML
+- CSS
+- JavaScript
+
+## Credits
+- The design and assets are from [Traction](https://www.tractiontoday.com) (I've made small changes to the design).
