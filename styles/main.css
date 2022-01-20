@@ -3,6 +3,7 @@
   --black: #000000;
   --aquamarine: #018d87;
   --dark: #232830;
+  --blue: #010a23;
   --hyper-large: 2.5rem;
   --very-large: 2.2rem;
   --large-plus: 1.8rem;
@@ -51,7 +52,7 @@ h2 {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  background: #000d46;
+  background: var(--blue);
   box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.2);
   z-index: 100;
 }
@@ -449,7 +450,7 @@ nav ul li {
 
 .footer {
   width: 100%;
-  background-color: rgb(1, 10, 35);
+  background-color: var(--blue);
 }
 .footer-content {
   width: 100%;
@@ -592,6 +593,12 @@ ul li a:visited {
     font-size: 1.8rem;
     line-height: 2.2rem;
   }
+  .input-field {
+    height: 42px;
+  }
+  .button--form {
+    font-size: 1.6rem;
+  }
   .img-container {
     margin-top: 0px;
     flex: 1;
@@ -664,10 +671,10 @@ ul li a:visited {
   h2 {
     font-size: 3.5rem;
   }
-
   .header {
-    background: #000d46;
+    background: var(--blue);
   }
+
   .nav__main {
     background: transparent;
   }
